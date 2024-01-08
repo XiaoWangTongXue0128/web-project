@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web-mvc-test:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_mvc_test_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-mvc-test" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="web-mvc-test/web/Web" />
+    </root>
+  </artifact>
+</component>

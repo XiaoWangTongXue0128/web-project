@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<mvc>
+    <!--
+        服务器启动就会读取web.xml
+        就会启动mvc框架
+        框架会根据configLocation加载比处理mvc.xml中的内容
+        告诉mvc框架，有这么一个拦截器需要执行 ，什么时候执行呢？
+        可以利用两个标签属性配置
+            include 包含需要执行拦截器的请求
+            exclude 包含不需要执行拦截器的请求  其余就需要执行拦截器
+    -->
+    <interceptor class="com.util.MyInterceptor"
+        include="/test1,/test3"
+    ></interceptor>
+</mvc>

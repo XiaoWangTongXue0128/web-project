@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/web-his/web-his.iml" filepath="$PROJECT_DIR$/web-his/web-his.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-layui-test/web-layui-test.iml" filepath="$PROJECT_DIR$/web-layui-test/web-layui-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-mvc-test/web-mvc-test.iml" filepath="$PROJECT_DIR$/web-mvc-test/web-mvc-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-orm-test/web-orm-test.iml" filepath="$PROJECT_DIR$/web-orm-test/web-orm-test.iml" />
+    </modules>
+  </component>
+</project>
