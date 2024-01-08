@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<mvc>
+    <interceptor
+            class="com.duyi.his.interceptors.AuthInterceptor"
+            exclude="/login,/exit,/verifyCode,/forget,/updatePwd"
+    ></interceptor>
+</mvc>

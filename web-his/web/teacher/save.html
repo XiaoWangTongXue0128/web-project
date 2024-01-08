@@ -1,0 +1,29 @@
+<!--
+    假设工程名就是his
+    浏览器这个url，能否访问到对应的html文件呢？
+    http://localhost:8080/his/teacher/save.html
+    http://localhost:8080/his/ ==> web目录
+    http://localhost:8080/his/teacher/save.html ==> web/teacher/save.html
+
+
+    在这个网页中，点击超链接后，能不能访问到对应的Testcontroller.save()方法
+    href中的请求以/开头，所以这个请求相对于服务器根路径
+    http://localhost:8080
+    最终url http://localhsot:8080/his/tea/save
+    与save方法上的@RequestMappping("/tea/save"）注解的配置匹配
+    所以可以访问
+-->
+<base href="<%=request.getContextPath()%>/" />
+<a href="tea/save">save</a>/>
+<a href="tea/save">save</a>/>
+<a href="tea/save">save</a>/>
+<a href="tea/save">save</a>/>
+<a href="tea/save">save</a>
+<a href="<%=request.getContextPath()%>/tea/save">save</a>
+<a href="<%=request.getContextPath()%>/tea/save">save</a>
+<a href="<%=request.getContextPath()%>/tea/save">save</a>
+<a href="<%=request.getContextPath()%>/tea/save">save</a>
+<a href="<%=request.getContextPath()%>/tea/save">save</a>
+<a href="<%=request.getContextPath()%>/tea/save">save</a>
+<a href="<%=request.getContextPath()%>/tea/save">save</a>
+<a href="<%=request.getContextPath()%>/tea/save">save</a>
